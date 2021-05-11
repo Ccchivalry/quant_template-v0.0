@@ -1,0 +1,6 @@
+# sql to get factors from DW database
+ashare_calendar:
+  Sql: "SELECT * FROM jydb.QT_TRADINGDAYNEW
+                            where secumarket = '83'
+                            and IfTradingDay = '1'
+                            order by tradingdate"

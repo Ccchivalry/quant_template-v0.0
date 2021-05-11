@@ -1,0 +1,23 @@
+# logs and data dir path
+Log:
+  path: './logs/'
+
+data:
+  path: './data/'
+
+# data_base account config
+data_base:
+  JY:
+    user: 'jydb'
+    pwd: 'jydb'
+    ip: '10.198.100.102:1521/JYDB'
+
+  RISK:
+    user: 'risk'
+    pwd: 'risk'
+    ip: '10.198.60.77:1521/RISK'
+
+
+
+
+
