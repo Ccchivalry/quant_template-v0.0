@@ -8,7 +8,7 @@ import pandas as pd
 import os
 from .utils.log_utils import logger
 from .settings import config, DIR_OF_MAIN_PROG
-from .db.ConnectingDatabase import Data_Query, sqls_config
+from .db.connecting_database import DataQuery, sqls_config
 
 
 def test_read_data():
@@ -27,7 +27,7 @@ def test_database():
     :return:
     """
     print("*" * 30, '测试数据库模块', "*" * 30)
-    dq = Data_Query(config['data_base']['JY'])
+    dq = DataQuery(config['data_base']['JY'])
     ssql = sqls_config['ashare_calendar']['Sql'] # sqls.yaml中的sql语句
     df = dq.sql_query(ssql)
     print(df.head())

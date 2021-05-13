@@ -1,6 +1,6 @@
 from pathlib import Path
 import yaml
-from .utils import error_utils
+
 
 # 主程序目录
 DIR_OF_MAIN_PROG = Path(__file__).resolve().parent.parent.parent

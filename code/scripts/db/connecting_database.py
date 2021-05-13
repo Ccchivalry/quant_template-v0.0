@@ -14,11 +14,11 @@ from .. import settings
 config = settings.config
 
 # load ssql.yaml中的语句
-_sqls_YAML_CFG = os.path.join(settings.DIR_OF_MAIN_PROG, 'code', 'scripts', 'db', 'sqls.yaml')
-with open(_sqls_YAML_CFG) as cfg:
+_SQLS_YAML_CFG = os.path.join(settings.DIR_OF_MAIN_PROG, 'code', 'scripts', 'db', 'sqls.yaml')
+with open(_SQLS_YAML_CFG) as cfg:
     sqls_config = yaml.safe_load(cfg)
 
-class Data_Query(object):
+class DataQuery(object):
     def __init__(self, log_info: Dict):
         """
         初始化，输入参数为字典，包含user，pwd，ip
