@@ -68,5 +68,10 @@ def run_my_function():
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     # gitlab 
     run_my_function()  
+=======
+    # github test
+    run_my_function()
+>>>>>>> 32c483f911239666ae30e7b5a2d5ba995c50d11f

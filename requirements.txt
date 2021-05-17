@@ -1,5 +1,8 @@
-colorlog==5.0.1
 pandas==1.2.3
 numpy==1.20.0
+<<<<<<< HEAD
+=======
+colorlog==5.0.1
+>>>>>>> 32c483f911239666ae30e7b5a2d5ba995c50d11f
 cx_Oracle==8.1.0
 PyYAML==5.4.1

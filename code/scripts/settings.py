@@ -12,4 +12,3 @@ with open(str(DIR_OF_MAIN_PROG.joinpath('code', 'scripts', 'config.yaml'))) as c
 
 # log 相关参数：绝对目录和文件名
 log_path = str(DIR_OF_MAIN_PROG.joinpath(config['Log']['path']))
-
