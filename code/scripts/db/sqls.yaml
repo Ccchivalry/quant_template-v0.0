@@ -4,3 +4,9 @@ ashare_calendar:
                             where secumarket = '83'
                             and IfTradingDay = '1'
                             order by tradingdate"
+
+demo_set_sqlparam:
+  Sql: "SELECT * FROM jydb.QT_TRADINGDAYNEW
+                            where secumarket = {param}
+                            and IfTradingDay = '1'
+                            order by tradingdate"

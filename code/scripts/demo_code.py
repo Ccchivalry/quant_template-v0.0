@@ -31,6 +31,14 @@ def test_database():
     ssql = sqls_config['ashare_calendar']['Sql'] # sqls.yaml中的sql语句
     df = dq.sql_query(ssql)
     print(df.head())
+
+    # demo： 含参数的sql语句
+    dq = DataQuery(config['data_base']['JY'])
+    ssql = sqls_config['demo_set_sqlparam']['Sql'] # sqls.yaml中的sql语句
+    ssql_param = ssql.format(param='83')
+    df = dq.sql_query(ssql_param)
+    print(df.head())
+
     pass
 
 def test_log_utils():
