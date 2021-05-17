@@ -1,5 +1,5 @@
-colorlog==5.0.1
 pandas==1.2.3
-numpy==1.20.2
+numpy==1.20.0
+colorlog==5.0.1
 cx_Oracle==8.1.0
 PyYAML==5.4.1
