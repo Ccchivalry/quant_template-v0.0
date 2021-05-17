@@ -53,4 +53,5 @@ def run_my_function():
 
 
 if __name__ == '__main__':
+    print('hello, let\'s begin.')
     run_my_function()
